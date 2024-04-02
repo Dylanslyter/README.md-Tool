@@ -1,28 +1,29 @@
 
   # Title
-  ssd
+  dog
 
   ## Description
-  sds
+  dog
   
   #Table Of Contents
-  undefined
+  god
 
   #Installation
-  undefined
+  god
 
   #Usage
-  undefined
+  dds
 
   #License
-  undefined
+  MIT License
 
   #Contributing
-  undefined
+  sd
 
   #Tests
-  undefined
+  sd
 
   #Questions
+  [GitHub profile](DylanSlyter)
   undefined
   

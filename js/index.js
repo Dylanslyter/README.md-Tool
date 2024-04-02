@@ -1,8 +1,17 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+inquirer.registerPrompt('search-list', require('inquirer-search-list'));
 function promptUser() {
   return inquirer.prompt([
+    {
+      type: "search-list",
+      message: "Select Lincense",
+      name: "License",
+      choices: ["MIT License", "Apache License 2.0", "GPL License"],
+      validate: function(answer) {
+        
+          return true;}
+  },
     {
       type: 'input',
       name: 'title',
@@ -30,16 +39,6 @@ function promptUser() {
     },
     {
       type: 'input',
-      name: 'Usage',
-      message: 'Enter the Usage for your project:'
-    },
-    {
-      type: 'input',
-      name: 'License',
-      message: 'Enter the Lisence used for your project:'
-    },
-    {
-      type: 'input',
       name: 'Contributing',
       message: 'Enter Contributing guide lines used for your project:'
     },
@@ -48,10 +47,11 @@ function promptUser() {
       name: 'Tests',
       message: 'Enter tests used for your project:' //test 
     },
+    
     {
       type: 'input',
-      name: 'Questions',
-      message: 'Enter qustions used for your project:'
+      name: 'Username',
+      message: 'Enter your GitHub username'
     },
  
   ]);
@@ -85,6 +85,7 @@ function generateREADME(answers) {
   ${answers.Tests}
 
   #Questions
+  [GitHub profile](https://GitHub.com/${answers.Username})
   ${answers.Questions}
   `;
 }
