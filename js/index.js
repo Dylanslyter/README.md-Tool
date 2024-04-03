@@ -24,11 +24,6 @@ function promptUser() {
     },
     {
       type: 'input',
-      name: 'Table_Of_Contents',
-      message: 'Enter a Table of contents for your project:'
-    },
-    {
-      type: 'input',
       name: 'Installation',
       message: 'Enter Installation for your project:'
     },
@@ -82,25 +77,29 @@ function generateREADME(answers) {
   ## Description
   ${answers.description}
   
-  #Table Of Contents
-  ${answers.Table_Of_Contents}
-
-  #Installation
+  ## Table Of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [License](#license)
+  - [Questions](#questions)
+  ## Installation
   ${answers.Installation}
 
-  #Usage
+  ## Usage
   ${answers.Usage}
 
-  #License
+  ## License
   ${answers.License}
 
-  #Contributing
+  ## Contributing
   ${answers.Contributing}
 
-  #Tests
+  ## Tests
   ${answers.Tests}
 
-  #Questions
+  ## Questions
   You can reach me at this email address if you have any further questions ${answers.Email}
   [GitHub profile](https://GitHub.com/${answers.Username})
   `;
