@@ -4,7 +4,7 @@
   README.md generator
 
   ## Description
-  A generator to create a readme.md using your command line using index.js
+  this is a generator to create a readme
   
   ## Table Of Contents
   - [Installation](#installation)
@@ -14,19 +14,19 @@
   - [License](#license)
   - [Questions](#questions)
   ## Installation
-  using the index.js you are allowed to use code creating a generator through your command line to create a README.md
+  you can use index.js in your code to create an instant generator for a readme.md
 
   ## Usage
-  you would use this as a shortcut to easilt create a README.md for whatever project you happen to be working on
+  it would be used as a shortcut to create a readme
 
   ## License
   MIT License
 
   ## Contributing
-  starter code, google, xpert learning
+  startercode, google, xpert
 
   ## Tests
-  you could use my github repository anf use it and test it out
+  go to my github using my username and try it out
 
   ## Questions
   You can reach me at this email address if you have any further questions dylan.slyter@yahoo.com
