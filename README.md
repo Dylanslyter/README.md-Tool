@@ -1,10 +1,10 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Title
-  README.md
+  README.md generator
 
   ## Description
-  this is a README.md generator using the command line
+  a generator to create a readme from the command line
   
   ## Table Of Contents
   - [Installation](#installation)
@@ -14,21 +14,21 @@
   - [License](#license)
   - [Questions](#questions)
   ## Installation
-  you going to go into your command line and using node index.js you able to create your own README.md from there
+  you will be using node index.js with your command line to create a readme.md into your code
 
   ## Usage
-  you will be able to use your command line to be abel to create a README.md this way instead of going through github
+  you woul like to use this for easily being able to create a readme.md into your code and to your github repository
 
   ## License
   MIT License
 
   ## Contributing
-  starting code
+  starter code 
 
   ## Tests
-  go github using my username and test it for yourself
+  can go into the github and test it for yourself 
 
   ## Questions
-  You can reach me at this email address if you have any further questions Dylan.slyter@yahoo.com
+  You can reach me at this email address if you have any further questions dylan.slyter@yahoo.com
   [GitHub profile](https://GitHub.com/DylanSlyter)
   
