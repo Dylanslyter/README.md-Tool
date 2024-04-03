@@ -6,24 +6,25 @@
   dog
   
   #Table Of Contents
-  god
+  dog
 
   #Installation
-  god
+  dog
 
   #Usage
-  dds
+  dog
 
   #License
   MIT License
 
   #Contributing
-  sd
+  dog
 
   #Tests
-  sd
+  dog
 
   #Questions
-  [GitHub profile](DylanSlyter)
+  You can reach me at this email address if you have any further questions Dylan.slyter@yahoo.com
+  [GitHub profile](https://GitHub.com/DylanSlyter)
   undefined
   

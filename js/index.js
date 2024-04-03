@@ -53,13 +53,29 @@ function promptUser() {
       name: 'Username',
       message: 'Enter your GitHub username'
     },
+    {
+      type: 'input',
+      name: 'Email',
+      message: 'Enter your Email Address'
+    },
  
   ]);
 }
 
 function generateREADME(answers) {
   console.log(answers)
+  let badge 
+  if (answers.License == "MIT License"){ 
+    badge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+  }
+  else if (answers.License == "Apache License 2.0"){
+    badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  }
+  else if (answers.License == "GPL License"){
+    badge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+  }
   return `
+  ${badge}
   # Title
   ${answers.title}
 
@@ -85,8 +101,8 @@ function generateREADME(answers) {
   ${answers.Tests}
 
   #Questions
+  You can reach me at this email address if you have any further questions ${answers.Email}
   [GitHub profile](https://GitHub.com/${answers.Username})
-  ${answers.Questions}
   `;
 }
 
